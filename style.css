@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: 'Raleway', sans-serif;
+
+/* font-family: 'Ubuntu', sans-serif; */
+
+}
+
+
+
+::-webkit-input-placeholder{
+    color: white;
+    font-weight: 700px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+
+.sm-button{
+        font-size: 16px;
+        padding: 5px 20px;
+        background-image: linear-gradient(45deg, pink,hotpink,orangered, transparent);
+        color: white;
+        font-weight: 700px;
+        border: 1px solid white;
+        cursor: pointer;
+}
+.sm-button:hover{
+    background-image: none;
+    background-color: white;
+    color:black;
+    border: 1px solid hotpink;
+   
+}
+.profile-name{
+    color: hotpink;
+}
+.highlight-text{
+    color: orangered;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 10%;  
+    background-color: rgb(248, 229, 229);
+    border-bottom: 2px solid  gray;
+    position: fixed;
+    width: 100vw;
+  
+}
+.nav-bar .logo i{ 
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.right-nav ul {
+     display: flex;
+     justify-content: center;
+     
+}
+.right-nav ul li{
+    padding: 10px;
+}
+.right-nav ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+
+
+.top-section{
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+  
+}
+
+.half-width{
+    width: 40%;
+}
+
+.half-width p{
+    padding: 10px 0px;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+
+/* TOP SECTION END */
+
+.bio-section {
+    background-image: url("images/biography-bg.png");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* BIO SECTION CSS END */
+
+
+
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+     background-size: contain;
+}
+.latest-work h2{
+    text-align: center;
+    padding-top: 3%;
+}
+.threebox-container{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    align-items: center;
+    padding: 6% 0px
+}
+.threebox-container img{
+    width: 20%;
+}
+
+/* LETEST WORK CSS END */
+
+.futures-section{
+     text-align: center;
+    
+
+}
+
+.threebox-container .box{
+    width: 20%;
+    height: 30vh;
+    padding: 30px 5px;
+    border: 2px solid rgb(243, 235, 235);
+    box-shadow: 20px 20px 40px rgb(223, 223, 223);
+    border-radius: 5px;
+ 
+}
+
+.threebox-container .box p{
+    padding-top:10px;
+}
+.threebox-container .box i{
+     font-size: 30px;
+     
+}
+
+.fa-grip-lines{color:navy;}
+.fa-pagelines{color: forestgreen;}
+.fa-signal{color: orangered;}
+.fa-c{color: purple;}
+.fa-intercom{color:rgb(47, 47, 216);}
+.fa-road-circle-check{color: rgb(36, 86, 105);}
+
+/* futures section css end */
+
+
+.client-section{
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+}
+.client-section p{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 20%;
+}
+
+
+.form{
+     background-image:linear-gradient(45deg,hotpink,orangered) ;
+    width: 30;
+    padding: 2% 5%;
+    margin: 10px 20%;
+    border-radius: 5px;
+    color: white;
+}
+.form button[type="submit"]{
+    background: none;
+    padding: 9px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.form button[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+.form input{
+    width: 300px;
+    padding: 5 20px;
+    height: 40px;
+    background: none;
+    text-align: center;
+    border: 1px solid white;
+}
+.form input:hover{
+    background-color: white;
+    color: black;
+}
+ 
+
+/* CLIENT FORM END */
+
+
+/* footer css start */
+footer{
+    background-color: black;
+    color: white;
+    padding: 7% 0px 0px 0px;;
+}
+
+.footer-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-form input{
+
+    width: 400px;
+    height: 20px;
+    padding: 4% 0px;
+    background: 0;
+    border: 0;
+    color: white;
+    background-color: none;
+    border-bottom: 2px solid white;
+}
+
+.footer-form button[type="submit"]{
+    border: 0;
+    background: 0;
+    color: none;
+    position: relative;
+    left: -30px;
+    cursor: pointer;
+    z-index: 999;
+}
+.footer-form button i{
+    color: gold;
+    font-size: 20px;
+}
+.half-width .logo i{
+    color: gold;
+    font-size: 30px;
+   
+}
+.fourbox-container .half-width a{
+    color: white;
+}
+
+.fourbox-container{
+  
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 5% 10%;   
+}
