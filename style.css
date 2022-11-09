@@ -489,6 +489,31 @@ footer{
 p{
     font-size: 10px;
 }
+
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+     background-size: contain;
+}
+.latest-work h2{
+    text-align: center;
+    padding-top: 3%;
+}
+.threebox-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 6% 0px
+}
+.threebox-container img{
+    width: 35%;
+
+}
+
+
+
+
+
     .threebox-container{
         display: flex;
         flex-wrap: wrap;
@@ -547,6 +572,23 @@ p{
        h1{
         font-size: 20px;
        }
+
+
+
+       .top-section .half-width{
+        padding-left: 15px;
+       }
+       .threebox-container{
+        display:block;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 6% 0px
+    }
+    .threebox-container img{
+        width: 80%;
+        margin-left: 10px;
+        
+    }
       
         .futures-section{
             display: flex;
@@ -567,6 +609,10 @@ p{
             width: 90%;
             margin-top: 10px;
             height: 30vh;
+        }
+
+        .threebox-container .box p{
+            font-size: 20px;
         }
         
     }
