@@ -356,7 +356,7 @@ footer{
 .aboutTop-container h2{
       font-size:20px;
       font-weight: bold; 
-      transform: translateY(-210px);
+      transform: translateY(-250px);
 
 }
 .towbox-container{
@@ -423,9 +423,153 @@ footer{
     justify-content: space-around;
     
 }
+
+ .articale h2{
+    padding-bottom: 50px;
+ }
 address{
     border-bottom: 1px solid gray;
 }
+
+
+
+/* ABOUT PAGES STYLE COMPLETE END.... */
+
+
+/* CONTACT PAGE STYLE START*/
+
+.contactTop-container{
+    background: rgb(0, 0, 0,0.5) url("https://source.unsplash.com/random/1600x900?viwe");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    padding: 10% 0px 0px 0px;
+    height: 60vh;
+}
+.contactTop-container p,h2{
+    width: 300px;
+    position: relative;
+    left: 40%;
+    top: 50px;
+    color: white;
+}
+
+.towbox-container .address{
+    background-color: rgb(3, 21, 54) !important;
+    color: white;
+}
+
+.contact-container{
+    position: relative;
+    top: -123px;
+}
+.contact-container .half-width{
+    padding: 5%;
+    background-color: rgb(68, 23, 46);
+    color: white;
+}
+
+
+.towbox-container .half-width .contact{
+    padding: 4% 2% ;
+  
+}
+.contact input{
+   width: 70%;
+   height: 4vh;
+}
+
+.contact button[type="submit"]{
+ 
+ padding: 5px 20px;
+ margin-top: 10px;
+ cursor: pointer;
+}
+
+.contact-container .half-width .box{
+    font-size: 17px;
+    padding: 10px 0px;
+}
+
+/* Contact pages style complete end */
+
+
+/* my intro page style start */
+
+.intro-container{
+    padding-top: 10%;
+    background-image: linear-gradient(180deg,hotpink,darkblue,grey);
+    color: white;
+}
+.certificate a{
+     color: white;
+}
+
+.loading-container{
+    background-image:url("images/biography-bg.png");
+    background-size: contain;
+}
+.loading .box{
+   
+    width: 20%;
+    border: 0;
+    padding: 7%;
+    border-radius: 50%;
+    text-align: center;
+    border: 10px solid rgb(153, 2, 73);
+    border-block-start-color: rgb(206, 206, 206);
+    transform: translateZ()
+}
+
+
+/* loading section end */
+
+
+.towbox-container{
+    padding: 5% 2%;
+
+}
+.Knowloage{
+    background-image: url("images/header-bg.png");
+   
+}
+.towbox-container .half-width i{
+
+    padding-top: 10px;
+}
+
+
+span.text{
+    position: relative;
+     color: black;
+     font-weight: bolder;
+    right: 50px;
+    bottom: 5px;
+}
+.collage .half-width p[class="html"]{
+
+    width: 90%;
+    height: 1px;
+    background-color: rgb(255, 175, 1);
+    font-weight: bold;
+    
+}
+
+.collage .half-width p[class="css"]{
+
+    width: 70%;
+    height: 1px;
+    background-color: rgb(16, 59, 36);
+}
+
+.collage .half-width p[class="js"]{
+
+    width: 40%;
+    height: 1px;
+    background-color: rgb(0, 66, 92);
+}
+
+
 
 /* media quary css start */
 
@@ -502,9 +646,9 @@ address{
         position: absolute;
         top: 0;
         left: 0;
-        width: 35vw;
+        width: 30vw;
         height: 100vh;
-        transform: translateX(-270px);
+        transform: translateX(-400px);
         transition: all 0.2s ease-in-out;
       
     }
@@ -563,6 +707,15 @@ address{
     padding: 5% 2%;
 }
 
+/* about and css media complete  */
+
+/* contact page meadia start */
+
+
+.contact-container .half-width .box{
+    font-size: 13px;
+    padding: 10px 0px;
+}
 
 
 }
@@ -580,6 +733,13 @@ p{
     font-size: 10px;
 }
 
+.nav-bar{
+    width: 40vw;
+    z-index: 888;
+}
+.hambar{
+    z-index: 999;
+}
 
 .latest-work{
     background-image: url("images/latest-work-bg.png");
@@ -688,6 +848,14 @@ p{
     padding: 0px 10%;
 }
 
+
+/* ABOUT PAGES MEDIA END COMPLETE */
+
+
+.contactTop-container h2{
+
+    left: 50%;
+}
     
     }
 
@@ -742,6 +910,23 @@ p{
 
         .threebox-container .box p{
             font-size: 20px;
+        }
+
+        /* ABOUT PAGES MEDIA COMPLETE END */
+
+        .contactTop-container h2{
+            left: 20%;
+            font-size: 19px;
+            border-bottom: 2px solid white;
+            width: 150px;
+        }
+        .contactTop-container p,h2{
+            left: 10%;
+            
+        }
+
+        .contact-container{
+            top: -50px;
         }
         
     }
